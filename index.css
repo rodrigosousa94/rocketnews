@@ -156,6 +156,9 @@ h4 {
         
     }
     
+
+
+    
     
     .left-container{
         width: 50%;
@@ -181,7 +184,7 @@ h4 {
 @media screen and (max-width: 500px) {
     .right-container{
         margin: auto;
-        height: 80%;
+        height: 100%;
         width: 100%;
         
         
@@ -190,7 +193,7 @@ h4 {
     #logo-img{
         width: 10rem;
         height: 3rem;
-        margin: 1rem 0 2rem 1rem;
+        margin: 2rem 0 2rem 1rem;
     }
 
 
@@ -199,7 +202,7 @@ h4 {
         font-size: 1.5rem;
         font-weight: bold;
         color: #08C05E;
-        margin: 0 0 1rem 1rem;
+        margin: 5rem 0 1rem 1rem;
     }
     
 
@@ -218,6 +221,80 @@ h4 {
         width: auto;
         margin: 0 0 1rem 1rem;}
 
+
+
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #label-email{
+            font-family: 'Spartan', sans-serif;
+            color: #A8A8A8;
+            font-weight: bold;
+            font-size: 0.875rem;
+            margin: 0 0 0 2rem;
+        }
+        
+        #inserir-email{
+            margin: auto;
+            width: 80%;
+            height: 2rem;
+            border-radius: 8px;
+            
+        }
+        
+        .btn{
+         margin: 1rem 0 1rem 2rem;
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #fff;
+        background-color: #0066CC;
+        padding: 5px 15px;
+        border: 2px solid #0066cc;
+        box-shadow: rgb(0, 0, 0) 12px 5px 25px 5px;
+        border-radius: 0px 50px;
+        transition : 1000ms;
+        transform: translateY(0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        width: 6em;
+        }
+        
+        .btn:hover{
+        
+        transition : 1000ms;
+        padding: 10px 50px;
+        transform : translateY(-0px);
+        background-color: #fff;
+        color: #0066cc;
+        border: solid 2px #0066cc;
+        }
+        
+        #link-read{
+            font-family: 'Spartan', sans-serif;
+            font-weight: bold;
+            font-size: 0.875rem;
+            text-decoration: none;
+            margin: 0 0 1rem 1rem;
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
     .left-container{
         width: 50%;
         height: 100%;
@@ -235,6 +312,6 @@ h4 {
         color: #08C05E;
         display: flex;
         justify-content: center;
-       
+       display:none;
     }
 }

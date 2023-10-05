@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+}
+
+.right-container{
+    width: 50%;
+    height: 100%;
+}
+
+#logo-img{
+    width: 24.313rem;
+    height: 5.875rem;
+    margin: 3rem 0 10rem 2rem;
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #08C05E;
+    margin: 0 0 1rem 2rem;
+}
+
+#paragraph-1{
+    color: #fff;
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 2rem;
+    font-weight: bold;
+}
+#paragraph-2{
+    color: #fff;
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.875rem;
+    width: 40.438rem;
+    margin: 0 0 5rem 2rem;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#label-email{
+    font-family: 'Spartan', sans-serif;
+    color: #A8A8A8;
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin: 0 0 0 1rem;
+}
+
+#inserir-email{
+    margin: 0.813rem 0 1rem 1rem;
+    width: 40rem;
+    height: 2rem;
+    border-radius: 8px;
+    
+}
+
+.btn{
+ margin: 0 0 1rem 1rem;
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 14px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 12px 5px 25px 5px;
+border-radius: 0px 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+width: 7rem;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+#link-read{
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 0.875rem;
+    text-decoration: none;
+    margin: 0 0 1rem 1rem;
+}
+
+.left-container{
+    width: auto;
+    height: 100%;
+}
+
+#oldman-img{
+    height: 56.25rem;
+    width: 73.438rem;
+}
+
+h4 {
+    color: #08C05E;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .right-container{
+        width: 50%;
+        height: 100%;
+    }
+    
+    
+    .left-container{
+        width: 50%;
+        height: 100%;
+    }
+
+    #oldman-img{
+        height: 100vh;
+        width: 40rem;
+    }
+    
+}
+
+@media screen and (max-width: 880px) {
+    .right-container{
+        height: 80%;
+        width: 100%;
+        margin: 3rem auto 9rem 4rem;
+        
+    }
+    
+    
+    .left-container{
+        width: 50%;
+        height: 100%;
+        display:none;
+    }
+
+    #oldman-img{
+        height: 100vh;
+        width: 40rem;
+        display:none;
+    }
+    
+
+    h4 {
+        color: #08C05E;
+        display: flex;
+        justify-content: center;
+       
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .right-container{
+        margin: auto;
+        height: 80%;
+        width: 100%;
+        
+        
+    }
+    
+    #logo-img{
+        width: 10rem;
+        height: 3rem;
+        margin: 1rem 0 2rem 1rem;
+    }
+
+
+    h3{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #08C05E;
+        margin: 0 0 1rem 1rem;
+    }
+    
+
+    #paragraph-1{
+        color: #fff;
+        font-family: 'Spartan', sans-serif;
+        font-size: 0.875rem;
+        margin: 0 0 1rem 1rem;
+        font-weight: bold;
+        width: auto;
+    }
+    #paragraph-2{
+        color: #fff;
+        font-family: 'Spartan', sans-serif;
+        font-size: 0.875rem;
+        width: auto;
+        margin: 0 0 1rem 1rem;}
+
+    .left-container{
+        width: 50%;
+        height: 100%;
+        display:none;
+    }
+
+    #oldman-img{
+        height: 100vh;
+        width: 40rem;
+        display:none;
+    }
+    
+
+    h4 {
+        color: #08C05E;
+        display: flex;
+        justify-content: center;
+       
+    }
+}
